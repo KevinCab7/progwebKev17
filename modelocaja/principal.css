@@ -1,0 +1,21 @@
+#contenedor_princ{
+	width: 200px;
+	height: 300px;
+	padding: 20px;
+	margin: 50px;
+	border: 10px dashed rebeccapurple;
+	background: grey;
+	box-sizing: content-box;
+}
+
+#contenedor_hijo{
+	width: 100px;
+	height: 100px;
+	padding: 90px;
+	margin: 5px;
+	border: 10px groove greenyellow;
+	background: white;
+	box-sizing: border-box;
+
+overflow: scroll;
+	border-radius:10px;
