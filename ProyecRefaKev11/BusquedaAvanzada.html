@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Aplicaciones de Vehículo</title>
+  <link rel="stylesheet" href="estilo.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    .contenedor-principal {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px;
+      margin: 50px auto;
+      max-width: 1200px;
+    }
+
+    .imagen-lateral {
+      width: 300px;
+    }
+
+    .imagen-lateral img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    .contenedor {
+      flex: 1;
+      padding: 20px;
+      background-color: #000000;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      color: white;
+    }
+
+    .titulo {
+      background-color: #005c3c;
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    select, button {
+      width: 100%;
+      padding: 8px;
+      border-radius: 5px;
+      margin-top: 5px;
+    }
+
+    button {
+      background-color: #005c3c;
+      color: white;
+      border: none;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #007954;
+    }
+
+    #resultado {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+
+    header, footer {
+      text-align: center;
+      padding: 10px;
+    }
+
+    .logo-header, .logo-footer {
+      max-height: 300px;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline;
+      margin: 0 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #005c3c;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="refa1.jpg" alt="Logo Refaccionaria" class="logo-header">
+    <h1>Refaccionaria El Gordito</h1>
+    <nav>
+      <ul>
+        <li><a href="./inicio.html">Inicio</a></li>
+        <li><a href="./productos.html">Catálogo de Productos</a></li>
+        <li><a href="./Refa.html">Refa</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="contenedor-principal">
+    <div class="imagen-lateral">
+      <img src="auto3.jpg" alt="Auto 3">
+      <img src="auto1.jpg" alt="Auto 1">
+      <img src="auto5.jpg" alt="Auto 5">
+      <img src="auto6.jpg" alt="Auto 6">
+    </div>
+
+    <div class="contenedor">
+      <div class="titulo">Aplicaciones</div>
+
+      <label for="marca">Marca del Vehículo</label>
+      <select id="marca"><option></option><option>Ford</option><option>Chevrolet</option><option>Nissan</option><option>Toyota</option><option>Volkswagen</option><option>Honda</option><option>Mazda</option><option>Kia</option><option>Hyunday</option><option>Dodge</option></select>
+
+      <label for="modelo">Modelo</label>
+      <select id="modelo"><option></option></select>
+
+      <label for="anio">Año</label>
+      <select id="anio"><option></option><option>2005</option><option>2008</option><option>2010</option><option>2012</option><option>2015</option><option>2018</option><option>2020</option><option>2022</option><option>2024</option><option>2025</option></select>
+
+      <label for="sistema">Sistemas</label>
+      <select id="sistema"><option></option><option>Frenos</option><option>Suspension</option><option>Motor</option><option>Electrico</option><option>Transmision</option><option>Escape</option><option>Refrigeracion</option></select>
+
+      <label for="motor">Motor</label>
+      <select id="motor"><option></option><option>1.4L</option><option>1.6L</option><option>1.8L</option><option>2.0L</option><option>2.4L</option><option>V6</option><option>V8</option><option>Turbo</option><option>Diesel</option></select>
+
+      <label for="subsistema">SubSistema</label>
+      <select id="subsistema">
+        <option></option>
+        <option>Pastillas de freno</option>
+        <option>Amortiguadores</option>
+        <option>Bujias</option>
+        <option>Alternador</option>
+        <option>Radiador</option>
+        <option>Bomba de gasolina</option>
+        <option>Filtro de aire</option>
+        <option>Embrage</option>
+      </select>
+
+      <label for="marca_producto">Marca del Producto</label>
+      <select id="marca_producto"><option></option><option>Bosch</option><option>NGK</option><option>Denso</option><option>AcDelco</option><option>Monroe</option><option>Gates</option><option>LUK</option><option>Valeo</option></select>
+
+      <label for="linea_generica">Línea Genérica</label>
+      <select id="linea_generica"><option></option><option>Sistema de Frenado</option><option>SIstema de Enfriamiento</option><option>Sistema de Direccion</option><option>Sistema Electrico</option><option>Sistema de Combustible</option></select>
+
+      <label for="linea_especifica">Línea Específica</label>
+      <select id="linea_especifica"><option></option><option>Disco de Freno</option><option>Mangueras</option><option>Bombas de Agua</option><option>Sensores de Oxigeno</option><option>Correas</option><option>Baterias</option></select>
+
+      <button id="buscar">Buscar Piezas</button>
+
+      <div id="resultado"></div>
+    </div>
+
+    <div class="imagen-lateral">
+      <img src="auto4.jpg" alt="Auto 4">
+      <img src="auto2.jpg" alt="Auto 2">
+      <img src="auto7.jpg" alt="Auto 7">
+      <img src="auto8.jpg" alt="Auto 8">
+    </div>
+  </div>
+
+  <footer>
+    <p>Contacto: RefaccionaraElGordito@gmail.com| Tel: +52 983 112 0157</p>
+    <img src="799.jpg" alt="Imagen Footer" class="logo-footer">
+  </footer>
+
+  <!-- Script funcional -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const marcaSelect = document.getElementById("marca");
+      const modeloSelect = document.getElementById("modelo");
+
+      fetch("modelos.json")
+        .then(response => response.json())
+        .then(data => {
+          marcaSelect.addEventListener("change", () => {
+            const marca = marcaSelect.value;
+            modeloSelect.innerHTML = "<option></option>";
+            if (data[marca]) {
+              data[marca].forEach(modelo => {
+                const option = document.createElement("option");
+                option.value = modelo;
+                option.textContent = modelo;
+                modeloSelect.appendChild(option);
+              });
+            }
+          });
+        });
+    });
+
+    document.getElementById("buscar").addEventListener("click", () => {
+      const campos = [
+        "marca", "modelo", "anio", "sistema", "motor",
+        "subsistema", "marca_producto", "linea_generica", "linea_especifica"
+      ];
+
+      const valores = {};
+      campos.forEach(id => {
+        valores[id] = document.getElementById(id).value.trim();
+      });
+
+      fetch("piezas.json")
+        .then(res => res.json())
+        .then(data => {
+          const resultado = data.find(pieza =>
+            Object.entries(valores).every(([k, v]) => pieza[k] === v)
+          );
+
+          const contenedor = document.getElementById("resultado");
+          if (resultado) {
+            contenedor.innerHTML = `<strong>Pieza encontrada:</strong> ${resultado.linea_especifica}`;
+          } else {
+            contenedor.innerHTML = "<strong style='color:red;'>No se encontró ninguna pieza con esos datos.</strong>";
+          }
+
+          // 🧹 Limpiar todos los campos
+          campos.forEach(id => {
+            document.getElementById(id).selectedIndex = 0;
+          });
+
+          // Limpiar modelos
+          document.getElementById("modelo").innerHTML = "<option></option>";
+        })
+        .catch(err => {
+          console.error("Error cargando piezas.json:", err);
+          document.getElementById("resultado").textContent = "Error al cargar piezas.";
+        });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "Ford": ["Fiesta", "Focus", "Mustang", "Escape", "Explorer"],
+  "Chevrolet": ["Aveo", "Cruze", "Malibu", "Captiva", "Silverado"],
+  "Nissan": ["Sentra", "Versa", "Altima", "March", "X-Trail"],
+  "Toyota": ["Corolla", "Camry", "Yaris", "Hilux", "RAV4"],
+  "Volkswagen": ["Jetta", "Gol", "Tiguan", "Golf", "Polo"],
+  "Honda": ["Civic", "Accord", "Fit", "CR-V", "HR-V"],
+  "Mazda": ["Mazda2", "Mazda3", "Mazda6", "CX-3", "CX-5"],
+  "Kia": ["Rio", "Forte", "Sportage", "Sorento", "Picanto"],
+  "Hyunday": ["Elantra", "Accent", "Tucson", "Santa Fe", "i10"],
+  "Dodge": ["Attitude", "Journey", "Charger", "Neon", "Durango"]
+}

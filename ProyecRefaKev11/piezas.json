@@ -1,0 +1,113 @@
+[
+  {
+    "marca": "Ford",
+    "modelo": "Focus",
+    "anio": "2012",
+    "sistema": "Frenos",
+    "motor": "2.0L",
+    "subsistema": "Pastillas de freno",
+    "marca_producto": "Bosch",
+    "linea_generica": "Sistema de Frenado",
+    "linea_especifica": "Disco de Freno"
+  },
+  {
+    "marca": "Chevrolet",
+    "modelo": "Aveo",
+    "anio": "2015",
+    "sistema": "Motor",
+    "motor": "1.6L",
+    "subsistema": "Bujias",
+    "marca_producto": "NGK",
+    "linea_generica": "Sistema de Combustible",
+    "linea_especifica": "Sensores de Oxigeno"
+  },
+  {
+    "marca": "Toyota",
+    "modelo": "Corolla",
+    "anio": "2018",
+    "sistema": "Suspension",
+    "motor": "1.8L",
+    "subsistema": "Amortiguadores",
+    "marca_producto": "Monroe",
+    "linea_generica": "Sistema de Direccion",
+    "linea_especifica": "Mangueras"
+  },
+  {
+    "marca": "Volkswagen",
+    "modelo": "Jetta",
+    "anio": "2020",
+    "sistema": "Electrico",
+    "motor": "Turbo",
+    "subsistema": "Alternador",
+    "marca_producto": "Valeo",
+    "linea_generica": "Sistema Electrico",
+    "linea_especifica": "Sensores de Oxigeno"
+  },
+  {
+    "marca": "Nissan",
+    "modelo": "Sentra",
+    "anio": "2022",
+    "sistema": "Refrigeracion",
+    "motor": "1.6L",
+    "subsistema": "Radiador",
+    "marca_producto": "Denso",
+    "linea_generica": "SIstema de Enfriamiento",
+    "linea_especifica": "Bombas de Agua"
+  },
+  {
+    "marca": "Honda",
+    "modelo": "Civic",
+    "anio": "2015",
+    "sistema": "Transmision",
+    "motor": "1.8L",
+    "subsistema": "Embrage",
+    "marca_producto": "LUK",
+    "linea_generica": "Sistema de Combustible",
+    "linea_especifica": "Correas"
+  },
+  {
+    "marca": "Mazda",
+    "modelo": "3",
+    "anio": "2020",
+    "sistema": "Motor",
+    "motor": "2.4L",
+    "subsistema": "Filtro de aire",
+    "marca_producto": "AcDelco",
+    "linea_generica": "Sistema de Combustible",
+    "linea_especifica": "Mangueras"
+  },
+  {
+    "marca": "Kia",
+    "modelo": "Rio",
+    "anio": "2018",
+    "sistema": "Escape",
+    "motor": "1.4L",
+    "subsistema": "Sensor de Oxígeno",
+    "marca_producto": "Denso",
+    "linea_generica": "Sistema Electrico",
+    "linea_especifica": "Sensores de Oxigeno"
+  },
+  {
+    "marca": "Dodge",
+    "modelo": "Attitude",
+    "anio": "2024",
+    "sistema": "Frenos",
+    "motor": "V6",
+    "subsistema": "Pastillas de freno",
+    "marca_producto": "Bosch",
+    "linea_generica": "Sistema de Frenado",
+    "linea_especifica": "Disco de Freno"
+  },
+  {
+    "marca": "Hyunday",
+    "modelo": "Elantra",
+    "anio": "2025",
+    "sistema": "Electrico",
+    "motor": "Diesel",
+    "subsistema": "Alternador",
+    "marca_producto": "Valeo",
+    "linea_generica": "Sistema Electrico",
+    "linea_especifica": "Baterias"
+  }
+]
+

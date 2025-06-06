@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refaccionaria El Gordito</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <img src="refa1.jpg" alt="Logo Refaccionaria" class="logo-header">
+        <h1>Refaccionaria El Gordito</h1>
+        <nav>
+            <ul>
+                <li><a href="./inicio.html">Inicio</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./BusquedaAvanzada.html">Busqueda Por Auto</a></li>
+                <li><a href="./Refa.html">Refa</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- SECCIÓN DE PRODUCTOS -->
+    <main>
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="productos-container">
+
+                <!-- PRODUCTO 1 -->
+                <div class="producto" onclick="toggleLista('lista-baleros')">
+                    <img src="producto1.jpg" alt="Baleros de servicio pesado">
+                    <h3>Baleros de servicio pesado</h3>
+                    <p>Repuesto de alta calidad para tu auto.</p>
+                    <ul id="lista-baleros" class="lista-productos">
+                        <li>Balero delantero Toyota Hilux</li>
+                        <li>Balero trasero Nissan NP300</li>
+                        <li>Balero SKF genérico</li>
+                    </ul>
+                </div>
+
+                <!-- PRODUCTO 2 -->
+                <div class="producto" onclick="toggleLista('lista-bandas')">
+                    <img src="producto2.jpg" alt="Bandas en general">
+                    <h3>Bandas en general</h3>
+                    <p>Durabilidad garantizada y excelente precio.</p>
+                    <ul id="lista-bandas" class="lista-productos">
+                        <li>Banda de distribución Honda Civic</li>
+                        <li>Banda alternador Chevrolet Aveo</li>
+                        <li>Banda para aire acondicionado</li>
+                    </ul>
+                </div>
+
+                <!-- PRODUCTO 3 -->
+                <div class="producto" onclick="toggleLista('lista-bolsas')">
+                    <img src="producto3.jpg" alt="Bolsas de aire">
+                    <h3>Bolsas de aire</h3>
+                    <p>Perfecto para mejorar el rendimiento de tu vehículo.</p>
+                    <ul id="lista-bolsas" class="lista-productos">
+                        <li>Bolsa de aire frontal Ford F-150</li>
+                        <li>Bolsa de aire lateral Nissan Versa</li>
+                    </ul>
+                </div>
+
+                <!-- PRODUCTO 4 -->
+                <div class="producto" onclick="toggleLista('lista-aditivos')">
+                    <img src="producto4.jpg" alt="Aditivos en general">
+                    <h3>Aditivos en general</h3>
+                    <p>Alta calidad y rendimiento óptimo.</p>
+                    <ul id="lista-aditivos" class="lista-productos">
+                        <li>Aditivo para gasolina STP</li>
+                        <li>Aditivo para aceite Lucas</li>
+                    </ul>
+                </div>
+
+                <!-- PRODUCTO 5 -->
+                <div class="producto" onclick="toggleLista('lista-servicios')">
+                    <img src="producto5.jpg" alt="Aditivos para servicios en general">
+                    <h3>Aditivos para servicios en general</h3>
+                    <p>Opción ideal para mantener tu auto en excelente estado.</p>
+                    <ul id="lista-servicios" class="lista-productos">
+                        <li>Limpia inyectores</li>
+                        <li>Tratamiento para válvulas</li>
+                    </ul>
+                </div>
+
+                <!-- PRODUCTO 6 -->
+                <div class="producto" onclick="toggleLista('lista-extras')">
+                    <img src="producto6.jpg" alt="Extras en general">
+                    <h3>Extras en general</h3>
+                    <p>Repuesto confiable y seguro.</p>
+                    <ul id="lista-extras" class="lista-productos">
+                        <li>Tapetes universales</li>
+                        <li>Aromatizantes</li>
+                        <li>Portaplacas</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Contacto: RefaccionaraElGordito@gmail.com  | Tel: +52 983 112 0157</p>
+        <img src="799.jpg" alt="Imagen Footer" class="logo-footer">
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
